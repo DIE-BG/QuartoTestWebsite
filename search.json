@@ -28,6 +28,16 @@
     "text": "Example Tab\nTo include a file in the website as a tab, the file should be created first, and then added in the _quarto.yml file, in website\\navbar section.\nfor example:\nwebsite:\n  title: \"QuartoTestWebsite\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n      - exampleTab.qmd\n\n\n\n\n Back to top"
   },
   {
+    "objectID": "embeddedSlideDeck.html",
+    "href": "embeddedSlideDeck.html",
+    "title": "Embedded Slide Deck",
+    "section": "",
+    "text": "Embedded Slide Deck\nThis is an example of a file with an embedded Slide Deck.\n\nFullscreen\n\n\n\n\n Back to top",
+    "crumbs": [
+      "First Slide Deck"
+    ]
+  },
+  {
     "objectID": "anotherTopic/anotherTopicSection.html",
     "href": "anotherTopic/anotherTopicSection.html",
     "title": "Another Topic With No Subsections",
@@ -64,6 +74,34 @@
       "Another Topic Section",
       "Subsection"
     ]
+  },
+  {
+    "objectID": "exampleSlideDeck/exampleSlideDeck.html#getting-up",
+    "href": "exampleSlideDeck/exampleSlideDeck.html#getting-up",
+    "title": "Habits",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "exampleSlideDeck/exampleSlideDeck.html#breakfast",
+    "href": "exampleSlideDeck/exampleSlideDeck.html#breakfast",
+    "title": "Habits",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "exampleSlideDeck/exampleSlideDeck.html#dinner",
+    "href": "exampleSlideDeck/exampleSlideDeck.html#dinner",
+    "title": "Habits",
+    "section": "Dinner",
+    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "exampleSlideDeck/exampleSlideDeck.html#going-to-sleep",
+    "href": "exampleSlideDeck/exampleSlideDeck.html#going-to-sleep",
+    "title": "Habits",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
   },
   {
     "objectID": "index.html",
