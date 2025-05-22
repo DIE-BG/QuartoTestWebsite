@@ -1,0 +1,8 @@
+# Embedded Slide Deck
+
+This is an example of a file with an embedded Slide Deck.
+
+```{=html}
+<iframe class="slide-deck" src="exampleSlideDeck/exampleSlideDeck.html" width="100%" height="600px" style="border: none;"></iframe>
+```
+[Fullscreen](exampleSlideDeck/exampleSlideDeck.qmd)

@@ -6,7 +6,7 @@ website:
   title: "QuartoTestWebsite"
   page-navigation: true
   back-to-top-navigation: true
-  page-footer: "Copyright 2025, m4wnn"
+  page-footer: "Copyright 2025, 12345abcde"
   
   navbar:
     pinned: true
@@ -24,6 +24,9 @@ website:
       - exampleTab.qmd
       - sidebar:topicid
       - sidebar:anothertopicid
+      - text: "Example SlideDeck"
+        href: exampleSlideDeck/exampleSlideDeck.qmd
+      - sidebar:groupdecksid
         
 
 
@@ -55,6 +58,20 @@ website:
           contents:
             - text: "Subsection"
               href: anotherTopic/anotherTopicSubsection.qmd
+    
+    - id: groupdecksid 
+      title: "Group of Slide Decks"
+      style: "docked"
+      search: true
+      contents:
+        - text: "First Slide Deck"
+          href: embeddedSlideDeck.qmd
+        - text: "Second Slide Deck"
+          href: embeddedSlideDeck.qmd
+        - section: "Topic Section"
+          contents:
+            - text: "Subsection"
+              href: embeddedSlideDeck.qmd
 
 
 format:
