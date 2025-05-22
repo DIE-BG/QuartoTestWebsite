@@ -1,0 +1,16 @@
+# Example Tab
+
+To include a file in the website as a tab, the file should be created first, and then added in the `_quarto.yml` file, in `website\navbar` section.
+
+for example:
+
+```yaml
+website:
+  title: "QuartoTestWebsite"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - exampleTab.qmd
+```

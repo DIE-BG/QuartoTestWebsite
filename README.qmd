@@ -1,0 +1,5 @@
+This is an example that the `README` is not included in the rendered site.
+
+```bash
+echo beeboop
+```

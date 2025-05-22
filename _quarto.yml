@@ -1,0 +1,66 @@
+project:
+  type: website
+
+
+website:
+  title: "QuartoTestWebsite"
+  page-navigation: true
+  back-to-top-navigation: true
+  page-footer: "Copyright 2025, m4wnn"
+  
+  navbar:
+    pinned: true
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://code.com
+          - text: Report a Bug
+            href:  https://bugs.com
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - exampleTab.qmd
+      - sidebar:topicid
+      - sidebar:anothertopicid
+        
+
+
+  sidebar:
+    - id: topicid
+      title: "Topic"
+      style: "docked"
+      search: true
+      contents:
+        - text: "Topic"
+          href: topic/topicIntro.qmd
+        - text: "Section With No Subsections"
+          href: topic/topicSection.qmd
+        - section: "Topic Section"
+          contents:
+            - text: "Subsection"
+              href: topic/topicSubsection.qmd
+    
+    - id: anothertopicid
+      title: "Another Topic"
+      style: "docked"
+      search: true
+      contents:
+        - text: "Another Topic"
+          href: anotherTopic/anotherTopicIntro.qmd
+        - text: "Section With No Subsections"
+          href: anotherTopic/anotherTopicSection.qmd
+        - section: "Another Topic Section"
+          contents:
+            - text: "Subsection"
+              href: anotherTopic/anotherTopicSubsection.qmd
+
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
