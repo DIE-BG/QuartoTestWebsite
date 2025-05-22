@@ -1,0 +1,85 @@
+[
+  {
+    "objectID": "topic/topicSubsection.html",
+    "href": "topic/topicSubsection.html",
+    "title": "Topic Subsection in a Section",
+    "section": "",
+    "text": "Topic Subsection in a Section\nThis file is a subsection in a section.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Topic Section",
+      "Subsection"
+    ]
+  },
+  {
+    "objectID": "topic/topicIntro.html",
+    "href": "topic/topicIntro.html",
+    "title": "Topic",
+    "section": "",
+    "text": "Topic\nThe content of this file can be a intro for the topic.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Topic"
+    ]
+  },
+  {
+    "objectID": "exampleTab.html",
+    "href": "exampleTab.html",
+    "title": "Example Tab",
+    "section": "",
+    "text": "Example Tab\nTo include a file in the website as a tab, the file should be created first, and then added in the _quarto.yml file, in website\\navbar section.\nfor example:\nwebsite:\n  title: \"QuartoTestWebsite\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n      - exampleTab.qmd\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "anotherTopic/anotherTopicSection.html",
+    "href": "anotherTopic/anotherTopicSection.html",
+    "title": "Another Topic With No Subsections",
+    "section": "",
+    "text": "Another Topic With No Subsections\nYou know the song…\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Section With No Subsections"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "anotherTopic/anotherTopicIntro.html",
+    "href": "anotherTopic/anotherTopicIntro.html",
+    "title": "Another Topic",
+    "section": "",
+    "text": "Another Topic\nIntro for this topic.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Another Topic"
+    ]
+  },
+  {
+    "objectID": "anotherTopic/anotherTopicSubsection.html",
+    "href": "anotherTopic/anotherTopicSubsection.html",
+    "title": "Another Topic Subsection",
+    "section": "",
+    "text": "Another Topic Subsection\nSame thing, different flavor.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Another Topic Section",
+      "Subsection"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "QuartoTestWebsite",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "topic/topicSection.html",
+    "href": "topic/topicSection.html",
+    "title": "Topic Section",
+    "section": "",
+    "text": "Topic Section\nThis file is a section of the topic.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Section With No Subsections"
+    ]
+  }
+]
