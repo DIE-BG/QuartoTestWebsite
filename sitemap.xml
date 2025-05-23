@@ -1,47 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://DIE-BG.github.io/QuartoTestWebsite/topic/topicSubsection.html</loc>
-    <lastmod>2025-05-22T17:46:00.748Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DIE-BG.github.io/QuartoTestWebsite/topic/topicIntro.html</loc>
-    <lastmod>2025-05-22T17:46:00.748Z</lastmod>
-  </url>
-  <url>
     <loc>https://DIE-BG.github.io/QuartoTestWebsite/exampleTab.html</loc>
-    <lastmod>2025-05-22T17:46:00.748Z</lastmod>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
   </url>
   <url>
-    <loc>https://DIE-BG.github.io/QuartoTestWebsite/embeddedSlideDeck.html</loc>
-    <lastmod>2025-05-22T20:31:29.900Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DIE-BG.github.io/QuartoTestWebsite/anotherTopic/anotherTopicSection.html</loc>
-    <lastmod>2025-05-22T17:46:00.748Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DIE-BG.github.io/QuartoTestWebsite/about.html</loc>
-    <lastmod>2025-05-22T17:46:00.740Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DIE-BG.github.io/QuartoTestWebsite/anotherTopic/anotherTopicIntro.html</loc>
-    <lastmod>2025-05-22T17:46:00.740Z</lastmod>
-  </url>
-  <url>
-    <loc>https://DIE-BG.github.io/QuartoTestWebsite/anotherTopic/anotherTopicSubsection.html</loc>
-    <lastmod>2025-05-22T17:46:00.748Z</lastmod>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/juliaExample/testRandomFreeze.html</loc>
+    <lastmod>2025-05-23T17:06:07.281Z</lastmod>
   </url>
   <url>
     <loc>https://DIE-BG.github.io/QuartoTestWebsite/exampleSlideDeck/exampleSlideDeck.html</loc>
-    <lastmod>2025-05-22T20:25:48.171Z</lastmod>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
   </url>
   <url>
-    <loc>https://DIE-BG.github.io/QuartoTestWebsite/index.html</loc>
-    <lastmod>2025-05-22T17:46:00.748Z</lastmod>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/anotherTopic/anotherTopicSubsection.html</loc>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/anotherTopic/anotherTopicIntro.html</loc>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/topic/topicSubsection.html</loc>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/topic/topicIntro.html</loc>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
   </url>
   <url>
     <loc>https://DIE-BG.github.io/QuartoTestWebsite/topic/topicSection.html</loc>
-    <lastmod>2025-05-22T17:46:00.748Z</lastmod>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/index.html</loc>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/anotherTopic/anotherTopicSection.html</loc>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/embeddedSlideDeck.html</loc>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/about.html</loc>
+    <lastmod>2025-05-23T14:49:37.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://DIE-BG.github.io/QuartoTestWebsite/juliaExample/testRandom.html</loc>
+    <lastmod>2025-05-23T17:04:32.286Z</lastmod>
   </url>
 </urlset>
