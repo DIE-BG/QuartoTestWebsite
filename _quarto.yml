@@ -27,6 +27,7 @@ website:
       - text: "Example SlideDeck"
         href: exampleSlideDeck/exampleSlideDeck.qmd
       - sidebar:groupdecksid
+      - sidebar:juliaexampleid
         
 
 
@@ -72,6 +73,16 @@ website:
           contents:
             - text: "Subsection"
               href: embeddedSlideDeck.qmd
+    
+    - id: juliaexampleid 
+      title: "Testing Julia"
+      style: "docked"
+      search: true
+      contents:
+        - text: "With No Freeze"
+          href: juliaExample/testRandom.qmd
+        - text: "With Freeze"
+          href: juliaExample/testRandomFreeze.qmd
 
 
 format:
