@@ -1,0 +1,12 @@
+{
+  "hash": "464c26aacb22b2a729a3cc378da26b3d",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Julia Test Including The Same Sim Twice But Freezing\"\nengine: julia\n---\n\n\n\n\nTesting if using the option `freeze: true` works...\n\nThe settings in the `.qmd` file of the simulation are: \n\n```yaml\n---\ntitle: \"Demo of a Julia Notebook With a Random Simulation\"\nengine: julia\nexecute:\n    freeze: true\n---\n```\n\n### Simulation No. 1\n\n\n\n---\ntitle: \"Demo of a Julia Notebook With a Random Simulation\"\nengine: julia\nexecute:\n    freeze: true\n---\n\n::: {#2 .cell execution_count=1}\n``` {.julia .cell-code}\nusing Random, CairoMakie\n\nrng = 1:5\nnSim = 10\n\nsim = rand(rng, nSim)\n\nfig, ax, plt = barplot(\n    1:nSim, sim\n)\nax.title = \"Picking $nSim Number With Replacement From 1 to 5\"\n\nfig\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n![](includingTwoSimsFreeze_files/figure-html/cell-2-output-1.svg){}\n:::\n:::\n\n\n\n\n\n\n\n### Simulation No. 2\n\nThis one should be the same simulation...\n\n\n\n\n---\ntitle: \"Demo of a Julia Notebook With a Random Simulation\"\nengine: julia\nexecute:\n    freeze: true\n---\n\n::: {#4 .cell execution_count=1}\n``` {.julia .cell-code}\nusing Random, CairoMakie\n\nrng = 1:5\nnSim = 10\n\nsim = rand(rng, nSim)\n\nfig, ax, plt = barplot(\n    1:nSim, sim\n)\nax.title = \"Picking $nSim Number With Replacement From 1 to 5\"\n\nfig\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n![](includingTwoSimsFreeze_files/figure-html/cell-3-output-1.svg){}\n:::\n:::\n\n\n",
+    "supporting": [
+      "includingTwoSimsFreeze_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

@@ -1,0 +1,33 @@
+---
+title: "Demo of a Julia With Freeze"
+engine: julia
+execute: 
+    freeze: true 
+---
+
+The content of this notebook will remain the same each time the file is rendered. This is because the `freeze` option is set to `true`.
+
+
+```yaml
+title: "Demo of a Julia Notebook With Freeze"
+engine: julia
+execute: 
+    freeze: false 
+```
+The results are saved in the `_freeze` folder, and we should not ignore this folder.
+
+```{julia}
+using Random, CairoMakie
+
+rng = 1:5
+nSim = 10
+
+sim = rand(rng, nSim)
+
+fig, ax, plt = barplot(
+    1:nSim, sim
+)
+ax.title = "Picking $nSim Number With Replacement From 1 to 5"
+
+fig
+```

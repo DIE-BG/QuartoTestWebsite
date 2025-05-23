@@ -1,0 +1,31 @@
+---
+title: "Demo of a Julia With No Freeze"
+engine: julia
+execute: 
+    freeze: false
+---
+
+The content of this notebook will be re-executed each time the website is rendered. This is because, in the settings of this Quarto notebook, the `freeze` option is set to `false`.
+
+```yaml
+title: "Demo of a Julia With No Freeze"
+engine: julia
+execute: 
+    freeze: false 
+```
+
+```{julia}
+using Random, CairoMakie
+
+rng = 1:5
+nSim = 10
+
+sim = rand(rng, nSim)
+
+fig, ax, plt = barplot(
+    1:nSim, sim
+)
+ax.title = "Picking $nSim Number With Replacement From 1 to 5"
+
+fig
+```

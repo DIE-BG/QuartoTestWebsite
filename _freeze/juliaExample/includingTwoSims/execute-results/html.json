@@ -1,0 +1,12 @@
+{
+  "hash": "76a6fdab98db30bb4ced994a8f7851ce",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Julia Test Including The Same Sim Twice\"\nengine: julia\n---\n\n\n\n### Simulation No. 1\n\n\n---\ntitle: \"Demo of a Julia Notebook With a Random Simulation\"\nengine: julia\n---\n\n::: {#2 .cell execution_count=1}\n``` {.julia .cell-code}\nusing Random, CairoMakie\n\nrng = 1:5\nnSim = 10\n\nsim = rand(rng, nSim)\n\nfig, ax, plt = barplot(\n    1:nSim, sim\n)\nax.title = \"Picking $nSim Number With Replacement From 1 to 5\"\n\nfig\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n![](includingTwoSims_files/figure-html/cell-2-output-1.svg){}\n:::\n:::\n\n\n\n\n\n\n### Simulation No. 2\n\n\n---\ntitle: \"Demo of a Julia Notebook With a Random Simulation\"\nengine: julia\n---\n\n::: {#4 .cell execution_count=1}\n``` {.julia .cell-code}\nusing Random, CairoMakie\n\nrng = 1:5\nnSim = 10\n\nsim = rand(rng, nSim)\n\nfig, ax, plt = barplot(\n    1:nSim, sim\n)\nax.title = \"Picking $nSim Number With Replacement From 1 to 5\"\n\nfig\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n![](includingTwoSims_files/figure-html/cell-3-output-1.svg){}\n:::\n:::\n\n\n",
+    "supporting": [
+      "includingTwoSims_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

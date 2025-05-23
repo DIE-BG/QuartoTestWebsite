@@ -1,0 +1,12 @@
+{
+  "hash": "f788c5740798c3673bb7751c17ce8781",
+  "result": {
+    "engine": "julia",
+    "markdown": "---\ntitle: \"Demo of a Julia Notebook With a Random Simulation\"\nengine: julia\nexecute:\n    freeze: true\n---\n\n::: {#2 .cell execution_count=1}\n``` {.julia .cell-code}\nusing Random, CairoMakie\n\nrng = 1:5\nnSim = 10\n\nsim = rand(rng, nSim)\n\nfig, ax, plt = barplot(\n    1:nSim, sim\n)\nax.title = \"Picking $nSim Number With Replacement From 1 to 5\"\n\nfig\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n![](testRandomFreeze_files/figure-html/cell-2-output-1.svg){}\n:::\n:::\n\n\n",
+    "supporting": [
+      "testRandomFreeze_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
